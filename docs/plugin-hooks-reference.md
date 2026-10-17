@@ -285,7 +285,7 @@ resolveId?: ObjectHook<(this: PluginContext, source: string, importer: string | 
     kind?: ImportKind;
     custom?: CustomPluginOptions;
     ssr?: boolean | undefined;
-    
+
     isEntry: boolean;
   }) => Promise<ResolveIdResult> | ResolveIdResult, {
     filter?: {
