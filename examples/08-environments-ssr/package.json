@@ -1,0 +1,23 @@
+{
+  "name": "@vite-study/08-environments-ssr",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "vite build",
+    "build:client": "vite build --config vite.client-only.config.ts",
+    "start": "node server.mjs --production"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sirv": "3.0.2"
+  },
+  "devDependencies": {
+    "vite": "8.3.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "@vite-study/lab-plugins": "workspace:*"
+  }
+}

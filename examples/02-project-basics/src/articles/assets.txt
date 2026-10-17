@@ -1,0 +1,1 @@
+ASSET_ARTICLE：模块里的资源 URL 会被构建器追踪并按部署 base 改写。

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>02 · 配置与资源</title></head>
+  <body>
+    <main>
+      <p>02 / PROJECT BASICS</p><h1>配置、CSS 与资源都进入模块图</h1>
+      <img id="logo" width="80" height="80" alt="模块图示意标记" />
+      <p id="greeting"></p><pre id="raw"></pre>
+      <h2>按需加载文章</h2><div id="articles"></div><output id="article" aria-live="polite"></output>
+      <h2>Worker 独立执行</h2><button id="compute">计算 1 到 100 的和</button><output id="result" aria-live="polite"></output>
+      <p><a id="public-file">读取 public 原样文件</a></p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

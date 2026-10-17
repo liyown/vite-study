@@ -1,0 +1,717 @@
+{
+  "scope": "Vite Plugin + inherited Rolldown FunctionPluginHooks / AddonHooks; apply is a control property",
+  "versions": {
+    "vite": "8.3.4",
+    "rolldown": "1.2.14"
+  },
+  "hooks": [
+    {
+      "name": "applyToEnvironment",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "applyToEnvironment",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2217,
+          "declaration": "applyToEnvironment?: (environment: PartialEnvironment) => boolean | Promise<boolean> | PluginOption;"
+        }
+      ]
+    },
+    {
+      "name": "augmentChunkHash",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "augmentChunkHash",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3221,
+          "declaration": "[DEFINED_HOOK_NAMES.augmentChunkHash]: (this: PluginContext, chunk: RenderedChunk) => string | void;"
+        }
+      ]
+    },
+    {
+      "name": "banner",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "banner",
+          "interface": "AddonHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3335,
+          "declaration": "[DEFINED_HOOK_NAMES.banner]: AddonHook;"
+        }
+      ]
+    },
+    {
+      "name": "buildApp",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "buildApp",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2308,
+          "declaration": "buildApp?: ObjectHook<BuildAppHook>;"
+        }
+      ]
+    },
+    {
+      "name": "buildEnd",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "buildEnd",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3173,
+          "declaration": "[DEFINED_HOOK_NAMES.buildEnd]: (this: PluginContext, err?: Error) => void;"
+        }
+      ]
+    },
+    {
+      "name": "buildStart",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "buildStart",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3094,
+          "declaration": "[DEFINED_HOOK_NAMES.buildStart]: (this: PluginContext, options: NormalizedInputOptions) => void;"
+        }
+      ]
+    },
+    {
+      "name": "closeBundle",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "closeBundle",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3277,
+          "declaration": "[DEFINED_HOOK_NAMES.closeBundle]: (this: PluginContext, error?: Error) => void;"
+        }
+      ]
+    },
+    {
+      "name": "closePreviewServer",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "closePreviewServer",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2281,
+          "declaration": "closePreviewServer?: ObjectHook<ClosePreviewServerHook>;"
+        }
+      ]
+    },
+    {
+      "name": "closeServer",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "closeServer",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2276,
+          "declaration": "closeServer?: ObjectHook<CloseServerHook>;"
+        }
+      ]
+    },
+    {
+      "name": "closeWatcher",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "closeWatcher",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3302,
+          "declaration": "[DEFINED_HOOK_NAMES.closeWatcher]: (this: PluginContext) => void;"
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "config",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2226,
+          "declaration": "config?: ObjectHook<(this: ConfigPluginContext, config: UserConfig, env: ConfigEnv) => Omit<UserConfig, \"plugins\"> | null | void | Promise<Omit<UserConfig, \"plugins\"> | null | void>>;"
+        }
+      ]
+    },
+    {
+      "name": "configEnvironment",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "configEnvironment",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2237,
+          "declaration": "configEnvironment?: ObjectHook<(this: ConfigPluginContext, name: string, config: EnvironmentOptions, env: ConfigEnv & {\n    /**\n     * Whether this environment is SSR environment and `ssr.target` is set to `'webworker'`.\n     * Only intended to be used for backward compatibility.\n     */\n    isSsrTargetWebworker?: boolean;\n  }) => EnvironmentOptions | null | void | Promise<EnvironmentOptions | null | void>>;"
+        }
+      ]
+    },
+    {
+      "name": "configResolved",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "configResolved",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2247,
+          "declaration": "configResolved?: ObjectHook<(this: MinimalPluginContextWithoutEnvironment, config: ResolvedConfig) => void | Promise<void>>;"
+        }
+      ]
+    },
+    {
+      "name": "configurePreviewServer",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "configurePreviewServer",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2267,
+          "declaration": "configurePreviewServer?: ObjectHook<PreviewServerHook>;"
+        }
+      ]
+    },
+    {
+      "name": "configureServer",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "configureServer",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2257,
+          "declaration": "configureServer?: ObjectHook<ServerHook>;"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "footer",
+          "interface": "AddonHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3342,
+          "declaration": "[DEFINED_HOOK_NAMES.footer]: AddonHook;"
+        }
+      ]
+    },
+    {
+      "name": "generateBundle",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "generateBundle",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3252,
+          "declaration": "[DEFINED_HOOK_NAMES.generateBundle]: (this: PluginContext, outputOptions: NormalizedOutputOptions, bundle: OutputBundle, isWrite: boolean) => void;"
+        }
+      ]
+    },
+    {
+      "name": "handleHotUpdate",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "handleHotUpdate",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2324,
+          "declaration": "handleHotUpdate?: ObjectHook<(this: MinimalPluginContextWithoutEnvironment, ctx: HmrContext) => Array<ModuleNode> | void | Promise<Array<ModuleNode> | void>>;"
+        }
+      ]
+    },
+    {
+      "name": "hotUpdate",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "hotUpdate",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2135,
+          "declaration": "hotUpdate?: ObjectHook<(this: MinimalPluginContext & {\n    environment: DevEnvironment;\n  }, options: HotUpdateOptions) => Array<EnvironmentModuleNode> | void | Promise<Array<EnvironmentModuleNode> | void>>;"
+        }
+      ]
+    },
+    {
+      "name": "intro",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "intro",
+          "interface": "AddonHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3349,
+          "declaration": "[DEFINED_HOOK_NAMES.intro]: AddonHook;"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "declaredBy": "vite-override",
+      "sources": [
+        {
+          "name": "load",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3134,
+          "declaration": "[DEFINED_HOOK_NAMES.load]: (this: PluginContext, id: string) => MaybePromise<LoadResult>;"
+        },
+        {
+          "name": "load",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2152,
+          "declaration": "load?: ObjectHook<(this: PluginContext, id: string, options?: {\n    ssr?: boolean | undefined;\n  }) => Promise<LoadResult> | LoadResult, {\n    filter?: {\n      id?: StringFilter;\n    };\n  }>;"
+        }
+      ]
+    },
+    {
+      "name": "moduleParsed",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "moduleParsed",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3165,
+          "declaration": "[DEFINED_HOOK_NAMES.moduleParsed]: (this: PluginContext, moduleInfo: ModuleInfo) => void;"
+        }
+      ]
+    },
+    {
+      "name": "onLog",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "onLog",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3057,
+          "declaration": "[DEFINED_HOOK_NAMES.onLog]: (this: MinimalPluginContext, level: LogLevel, log: RolldownLog) => NullValue | boolean;"
+        }
+      ]
+    },
+    {
+      "name": "options",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "options",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3070,
+          "declaration": "[DEFINED_HOOK_NAMES.options]: (this: MinimalPluginContext, options: InputOptions) => NullValue | InputOptions;"
+        }
+      ]
+    },
+    {
+      "name": "outputOptions",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "outputOptions",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3085,
+          "declaration": "[DEFINED_HOOK_NAMES.outputOptions]: (this: MinimalPluginContext, options: OutputOptions) => NullValue | OutputOptions;"
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "outro",
+          "interface": "AddonHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3356,
+          "declaration": "[DEFINED_HOOK_NAMES.outro]: AddonHook;"
+        }
+      ]
+    },
+    {
+      "name": "renderChunk",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "renderChunk",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3206,
+          "declaration": "[DEFINED_HOOK_NAMES.renderChunk]: (this: PluginContext, code: string, chunk: RenderedChunk, outputOptions: NormalizedOutputOptions, meta: RenderedChunkMeta) => NullValue | string | RolldownMagicString | {\n    code: string | RolldownMagicString;\n    map?: SourceMapInput;\n  };"
+        }
+      ]
+    },
+    {
+      "name": "renderError",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "renderError",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3239,
+          "declaration": "[DEFINED_HOOK_NAMES.renderError]: (this: PluginContext, error: Error) => void;"
+        }
+      ]
+    },
+    {
+      "name": "renderStart",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "renderStart",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3192,
+          "declaration": "[DEFINED_HOOK_NAMES.renderStart]: (this: PluginContext, outputOptions: NormalizedOutputOptions, inputOptions: NormalizedInputOptions) => void;"
+        }
+      ]
+    },
+    {
+      "name": "resolveDynamicImport",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "resolveDynamicImport",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3123,
+          "declaration": "[DEFINED_HOOK_NAMES.resolveDynamicImport]: (this: PluginContext, source: string, importer: string | undefined) => ResolveIdResult;"
+        }
+      ]
+    },
+    {
+      "name": "resolveFileUrl",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "resolveFileUrl",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3227,
+          "declaration": "[DEFINED_HOOK_NAMES.resolveFileUrl]: (this: PluginContext, args: ResolveFileUrlArgs) => string | NullValue;"
+        }
+      ]
+    },
+    {
+      "name": "resolveId",
+      "declaredBy": "vite-override",
+      "sources": [
+        {
+          "name": "resolveId",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3113,
+          "declaration": "[DEFINED_HOOK_NAMES.resolveId]: (this: PluginContext, source: string, importer: string | undefined, extraOptions: ResolveIdExtraOptions) => ResolveIdResult;"
+        },
+        {
+          "name": "resolveId",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2141,
+          "declaration": "resolveId?: ObjectHook<(this: PluginContext, source: string, importer: string | undefined, options: {\n    kind?: ImportKind;\n    custom?: CustomPluginOptions;\n    ssr?: boolean | undefined;\n    \n    isEntry: boolean;\n  }) => Promise<ResolveIdResult> | ResolveIdResult, {\n    filter?: {\n      id?: StringFilter<RegExp>;\n    };\n  }>;"
+        }
+      ]
+    },
+    {
+      "name": "shouldTransformCachedModule",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "shouldTransformCachedModule",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2330,
+          "declaration": "shouldTransformCachedModule?: ObjectHook<(this: PluginContext, options: {\n    code: string;\n    id: string;\n    meta: CustomPluginOptions;\n    moduleSideEffects: boolean | \"no-treeshake\";\n  }) => boolean | null | void>;"
+        }
+      ]
+    },
+    {
+      "name": "transform",
+      "declaredBy": "vite-override",
+      "sources": [
+        {
+          "name": "transform",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3147,
+          "declaration": "[DEFINED_HOOK_NAMES.transform]: (this: TransformPluginContext, code: string, id: string, meta: BindingTransformHookExtraArgs & {\n    moduleType: ModuleType;\n    magicString?: RolldownMagicString;\n    ast?: Program;\n  }) => TransformResult;"
+        },
+        {
+          "name": "transform",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2159,
+          "declaration": "transform?: ObjectHook<(this: TransformPluginContext, code: string, id: string, options?: {\n    moduleType: ModuleType;\n    ssr?: boolean | undefined;\n  }) => Promise<Rolldown.TransformResult> | Rolldown.TransformResult, {\n    filter?: {\n      id?: StringFilter;\n      code?: StringFilter;\n      moduleType?: ModuleTypeFilter;\n    };\n  }>;"
+        }
+      ]
+    },
+    {
+      "name": "transformIndexHtml",
+      "declaredBy": "vite",
+      "sources": [
+        {
+          "name": "transformIndexHtml",
+          "interface": "Plugin",
+          "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+          "line": 2302,
+          "declaration": "transformIndexHtml?: IndexHtmlTransform;"
+        }
+      ]
+    },
+    {
+      "name": "watchChange",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "watchChange",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3291,
+          "declaration": "[DEFINED_HOOK_NAMES.watchChange]: (this: PluginContext, id: string, event: {\n    event: ChangeEvent;\n  }) => void;"
+        }
+      ]
+    },
+    {
+      "name": "writeBundle",
+      "declaredBy": "rolldown",
+      "sources": [
+        {
+          "name": "writeBundle",
+          "interface": "FunctionPluginHooks",
+          "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+          "line": 3260,
+          "declaration": "[DEFINED_HOOK_NAMES.writeBundle]: (this: PluginContext, outputOptions: NormalizedOutputOptions, bundle: OutputBundle) => void;"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "api",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+      "line": 3411,
+      "declaration": "api?: A;"
+    },
+    {
+      "name": "apply",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+      "line": 2211,
+      "declaration": "apply?: \"serve\" | \"build\" | ((this: void, config: UserConfig, env: ConfigEnv) => boolean);"
+    },
+    {
+      "name": "enforce",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+      "line": 2207,
+      "declaration": "enforce?: \"pre\" | \"post\";"
+    },
+    {
+      "name": "meta",
+      "interface": "OutputPlugin",
+      "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+      "line": 3396,
+      "declaration": "meta?: PluginMeta;"
+    },
+    {
+      "name": "name",
+      "interface": "OutputPlugin",
+      "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+      "line": 3385,
+      "declaration": "name: string;"
+    },
+    {
+      "name": "perEnvironmentStartEndDuringDev",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+      "line": 2185,
+      "declaration": "perEnvironmentStartEndDuringDev?: boolean;"
+    },
+    {
+      "name": "perEnvironmentWatchChangeDuringDev",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+      "line": 2193,
+      "declaration": "perEnvironmentWatchChangeDuringDev?: boolean;"
+    },
+    {
+      "name": "sharedDuringBuild",
+      "interface": "Plugin",
+      "file": "node_modules/.pnpm/vite@8.3.4_@types+node@24.19.2/node_modules/vite/dist/node/index.d.ts",
+      "line": 2177,
+      "declaration": "sharedDuringBuild?: boolean;"
+    },
+    {
+      "name": "version",
+      "interface": "OutputPlugin",
+      "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+      "line": 3387,
+      "declaration": "version?: string;"
+    }
+  ],
+  "contextInterfaces": {
+    "MinimalPluginContext": [
+      {
+        "name": "error",
+        "interface": "MinimalPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2235,
+        "declaration": "error: (e: RolldownError | string) => never;"
+      },
+      {
+        "name": "info",
+        "interface": "MinimalPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2248,
+        "declaration": "info: LoggingFunction;"
+      },
+      {
+        "name": "warn",
+        "interface": "MinimalPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2265,
+        "declaration": "warn: LoggingFunction;"
+      },
+      {
+        "name": "debug",
+        "interface": "MinimalPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2278,
+        "declaration": "debug: LoggingFunction;"
+      },
+      {
+        "name": "meta",
+        "interface": "MinimalPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2280,
+        "declaration": "meta: PluginContextMeta;"
+      }
+    ],
+    "PluginContext": [
+      {
+        "name": "fs",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2436,
+        "declaration": "fs: RolldownFsModule;"
+      },
+      {
+        "name": "emitFile",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2445,
+        "declaration": "emitFile(file: EmittedFile): string;"
+      },
+      {
+        "name": "getFileName",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2452,
+        "declaration": "getFileName(referenceId: string): string;"
+      },
+      {
+        "name": "getModuleIds",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2465,
+        "declaration": "getModuleIds(): IterableIterator<string>;"
+      },
+      {
+        "name": "getModuleInfo",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2474,
+        "declaration": "getModuleInfo: GetModuleInfo;"
+      },
+      {
+        "name": "addWatchFile",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2480,
+        "declaration": "addWatchFile(id: string): void;"
+      },
+      {
+        "name": "load",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2490,
+        "declaration": "load(options: {\n    id: string;\n    resolveDependencies?: boolean;\n  } & Partial<PartialNull<ModuleOptions>>): Promise<ModuleInfo>;"
+      },
+      {
+        "name": "parse",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2497,
+        "declaration": "parse(input: string, options?: ParserOptions | null): Program;"
+      },
+      {
+        "name": "resolve",
+        "interface": "PluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2515,
+        "declaration": "resolve(source: string, importer?: string, options?: PluginContextResolveOptions): Promise<ResolvedId | null>;"
+      }
+    ],
+    "TransformPluginContext": [
+      {
+        "name": "debug",
+        "interface": "TransformPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2527,
+        "declaration": "debug: LoggingFunctionWithPosition;"
+      },
+      {
+        "name": "info",
+        "interface": "TransformPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2534,
+        "declaration": "info: LoggingFunctionWithPosition;"
+      },
+      {
+        "name": "warn",
+        "interface": "TransformPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2541,
+        "declaration": "warn: LoggingFunctionWithPosition;"
+      },
+      {
+        "name": "error",
+        "interface": "TransformPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2546,
+        "declaration": "error(e: RolldownError | string, pos?: number | {\n    column: number;\n    line: number;\n  }): never;"
+      },
+      {
+        "name": "getCombinedSourcemap",
+        "interface": "TransformPluginContext",
+        "file": "node_modules/.pnpm/rolldown@1.2.14/node_modules/rolldown/dist/shared/define-config-BLptERXo.d.mts",
+        "line": 2553,
+        "declaration": "getCombinedSourcemap(): SourceMap;"
+      }
+    ]
+  }
+}

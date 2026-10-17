@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/TanStack/router",
+  "commit": "7a0672503857283614799a0b480f4a82110e5ab6",
+  "files": [
+    "packages/start-plugin-core/src/start-compiler/compiler.ts",
+    "packages/start-plugin-core/src/start-compiler/handleCreateServerFn.ts",
+    "packages/start-plugin-core/src/start-compiler/handleCreateIsomorphicFn.ts",
+    "packages/start-plugin-core/src/start-compiler/handleEnvOnly.ts",
+    "packages/start-client-core/src/createServerFn.ts",
+    "packages/start-client-core/src/client-rpc/createClientRpc.ts",
+    "packages/start-server-core/src/createSsrRpc.ts",
+    "packages/start-server-core/src/createServerRpc.ts",
+    "packages/start-server-core/src/server-functions-handler.ts",
+    "packages/start-server-core/src/getServerFnById.ts",
+    "packages/start-plugin-core/src/start-compiler/server-fn-resolver-module.ts",
+    "LICENSE"
+  ],
+  "sha256": {
+    "packages/start-plugin-core/src/start-compiler/compiler.ts": "80352a9f73e0a0fb74978f4f67ac4bd2051f55ba93e9bb6cfad5344174cc92d5",
+    "packages/start-plugin-core/src/start-compiler/handleCreateServerFn.ts": "4dbf12344ee3d107e06e1084f657ce877511ceb28bd6e4b4212f6eba87f66e5d",
+    "packages/start-plugin-core/src/start-compiler/handleCreateIsomorphicFn.ts": "5f3902f025be3c7940d42b55fa722ab68131afbcfdd13f70da338caf87655bb2",
+    "packages/start-plugin-core/src/start-compiler/handleEnvOnly.ts": "a9ce57680c4bf8b5677edab067695b12a9ac222f50b843a9ae880761c794e048",
+    "packages/start-client-core/src/createServerFn.ts": "27058942e9ed78af3c4b2e066b879e0e2b47a3a79bb67bb935574f4a9af2e33c",
+    "packages/start-client-core/src/client-rpc/createClientRpc.ts": "cc07241aedf67eeb6507038e0d2b1660d6e52bddabd65a462266adfc51042abe",
+    "packages/start-server-core/src/createSsrRpc.ts": "96d2d2a82cbff0b55b9784ca2c5b0c7ec7ddcaace1760b1405ad1a1c0c801aa5",
+    "packages/start-server-core/src/createServerRpc.ts": "de43fd73a0167c8d0885548299b8581d92ed361b05b5e19808182aba28ed0410",
+    "packages/start-server-core/src/server-functions-handler.ts": "61c771520d737d7537a5e75c23e33fef759d4ee8bca9300f4e9696a0a69963a0",
+    "packages/start-server-core/src/getServerFnById.ts": "f490eb8a5f7f3f545665d1f89abf77b7de61986b73882a097d063c896db1aa48",
+    "packages/start-plugin-core/src/start-compiler/server-fn-resolver-module.ts": "ebb072ba86f7237748c2ffc0ba2b34f329605d48a82e159916826fc7c2c5e23d",
+    "LICENSE": "a405ee70c632bb938acb7ac5f210e814409b3760ea9d2329d8ed8ffcfd11a0e7"
+  }
+}

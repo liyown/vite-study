@@ -1,0 +1,15 @@
+{
+  "name": "@vite-study/07-plugin-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5177 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4177 --strictPort"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "8.3.4",
+    "@vite-study/lab-plugins": "workspace:*"
+  }
+}

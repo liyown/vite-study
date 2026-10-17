@@ -1,0 +1,11 @@
+{
+  "name": "@vite-study/06-build-deploy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5176 --strictPort",
+    "build": "vite build && vite build --config vite.lib.config.ts",
+    "preview": "vite preview --host 127.0.0.1 --port 4176 --strictPort"
+  },
+  "devDependencies": { "vite": "8.3.4" }
+}

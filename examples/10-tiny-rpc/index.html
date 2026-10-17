@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>10 · 最小 RPC</title>
+  <style>
+    body { font: 16px/1.7 system-ui; color: #252525; background: #f5f4ef; margin: 0; padding: 48px 24px; }
+    main { max-width: 660px; margin: auto; }
+    input, button { font: inherit; padding: 8px 12px; }
+    button { background: #315d45; color: white; border: 0; border-radius: 4px; cursor: pointer; }
+    output { display: block; margin: 24px 0; padding: 16px; background: white; overflow-wrap: anywhere; }
+    input:focus-visible, button:focus-visible { outline: 3px solid #a26919; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p>10 / TINY RPC</p>
+    <h1>一次函数调用，走完 RPC</h1>
+    <p>浏览器调用 greet → HTTP → 服务器查表 → 真正的 greet。</p>
+    <form>
+      <label for="name">名字</label>
+      <input id="name" name="name" value="小明" required />
+      <button>调用 greet</button>
+    </form>
+    <output aria-live="polite">等待调用</output>
+    <script type="module" src="/src/main.js"></script>
+  </main>
+</body>
+</html>

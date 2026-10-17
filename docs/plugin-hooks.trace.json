@@ -1,0 +1,538 @@
+{
+  "versions": {
+    "vite": "8.3.4",
+    "rolldown": "1.2.14"
+  },
+  "scope": "受控示例：内存构建、写盘构建、转换失败、输出失败、默认 dev、preview；非所有 Hook 的穷举执行测试。日志顺序仅代表此示例。",
+  "traces": {
+    "build-memory": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "outputOptions"
+      },
+      {
+        "hook": "buildStart"
+      },
+      {
+        "hook": "onLog",
+        "detail": "warn"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "resolveDynamicImport",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "buildEnd",
+        "detail": "success"
+      },
+      {
+        "hook": "renderStart"
+      },
+      {
+        "hook": "resolveFileUrl"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "augmentChunkHash"
+      },
+      {
+        "hook": "augmentChunkHash"
+      },
+      {
+        "hook": "generateBundle",
+        "detail": {
+          "isWrite": false,
+          "hasHtml": false
+        }
+      },
+      {
+        "hook": "transformIndexHtml"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      }
+    ],
+    "build-write": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "outputOptions"
+      },
+      {
+        "hook": "buildStart"
+      },
+      {
+        "hook": "onLog",
+        "detail": "warn"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "resolveDynamicImport",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "buildEnd",
+        "detail": "success"
+      },
+      {
+        "hook": "renderStart"
+      },
+      {
+        "hook": "resolveFileUrl"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "augmentChunkHash"
+      },
+      {
+        "hook": "augmentChunkHash"
+      },
+      {
+        "hook": "generateBundle",
+        "detail": {
+          "isWrite": true,
+          "hasHtml": false
+        }
+      },
+      {
+        "hook": "transformIndexHtml"
+      },
+      {
+        "hook": "writeBundle"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      }
+    ],
+    "build-transform-error": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "outputOptions"
+      },
+      {
+        "hook": "buildStart"
+      },
+      {
+        "hook": "onLog",
+        "detail": "warn"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "buildEnd",
+        "detail": "error"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "error"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      }
+    ],
+    "build-render-error": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "outputOptions"
+      },
+      {
+        "hook": "buildStart"
+      },
+      {
+        "hook": "onLog",
+        "detail": "warn"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "resolveDynamicImport",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "load",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "transform",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "moduleParsed",
+        "detail": "virtual:lazy"
+      },
+      {
+        "hook": "buildEnd",
+        "detail": "success"
+      },
+      {
+        "hook": "renderStart"
+      },
+      {
+        "hook": "resolveFileUrl"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "banner"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "intro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "outro"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "footer"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "renderChunk"
+      },
+      {
+        "hook": "renderError"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      }
+    ],
+    "dev": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "ssr"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "ssr"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "options"
+      },
+      {
+        "hook": "configureServer"
+      },
+      {
+        "hook": "configureServer:post"
+      },
+      {
+        "hook": "buildStart"
+      },
+      {
+        "hook": "transformIndexHtml"
+      },
+      {
+        "hook": "resolveId",
+        "detail": "virtual:main"
+      },
+      {
+        "hook": "buildEnd",
+        "detail": "success"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      },
+      {
+        "hook": "closeBundle",
+        "detail": "success"
+      },
+      {
+        "hook": "closeServer",
+        "detail": "close"
+      }
+    ],
+    "preview": [
+      {
+        "hook": "config"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "configEnvironment",
+        "detail": "ssr"
+      },
+      {
+        "hook": "configResolved"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "client"
+      },
+      {
+        "hook": "applyToEnvironment",
+        "detail": "ssr"
+      },
+      {
+        "hook": "configurePreviewServer"
+      },
+      {
+        "hook": "configurePreviewServer:post"
+      },
+      {
+        "hook": "closePreviewServer"
+      }
+    ]
+  }
+}

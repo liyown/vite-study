@@ -1,0 +1,39 @@
+{
+  "name": "vite-study",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "pnpm -r --workspace-concurrency=1 build",
+    "verify": "node --test scripts/verify.test.mjs && pnpm -r --workspace-concurrency=1 --if-present test",
+    "check": "pnpm typecheck && pnpm build && pnpm verify && pnpm docs:check --built && pnpm docs:hooks",
+    "docs:check": "node scripts/check-docs.mjs",
+    "docs:hooks": "node scripts/check-plugin-docs.mjs",
+    "docs:hooks:trace": "node scripts/trace-plugin-lifecycle.mjs",
+    "compare:react": "node scripts/compare-react.mjs",
+    "native:demo": "pnpm --dir native/01-js-rust demo",
+    "dev:01": "pnpm --filter @vite-study/01-vanilla dev",
+    "dev:02": "pnpm --filter @vite-study/02-project-basics dev",
+    "dev:03": "pnpm --filter @vite-study/03-react-bare dev",
+    "dev:04": "pnpm --filter @vite-study/04-react-refresh dev",
+    "dev:05": "pnpm --filter @vite-study/05-modes dev",
+    "dev:06": "pnpm --filter @vite-study/06-build-deploy dev",
+    "dev:07": "pnpm --filter @vite-study/07-plugin-lab dev",
+    "dev:08": "pnpm --filter @vite-study/08-environments-ssr dev",
+    "dev:09": "pnpm --filter @vite-study/09-fullstack-api dev",
+    "dev:10": "pnpm --filter @vite-study/10-tiny-rpc dev",
+    "dev:11": "pnpm --filter @vite-study/11-mini-start dev"
+  },
+  "devDependencies": {
+    "vite": "8.3.4",
+    "typescript": "7.0.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}

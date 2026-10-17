@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>08-environments-ssr · Vite 实验</title>
+</head>
+
+<body>
+    <main>
+        <div id="root"><!--ssr-outlet--></div>
+        <p>浏览器模块的 Environment：<code id="client-env">等待浏览器执行</code></p>
+    </main>
+    <script id="initial-data" type="application/json"><!--initial-data--></script>
+    <script type="module" src="/src/entry-client.tsx"></script>
+</body>
+
+</html>

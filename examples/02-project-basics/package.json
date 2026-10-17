@@ -1,0 +1,11 @@
+{
+  "name": "@vite-study/02-project-basics",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5172 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4172 --strictPort"
+  },
+  "devDependencies": { "vite": "8.3.4" }
+}

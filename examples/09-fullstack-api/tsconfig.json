@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src",
+    "vite*.ts",
+    "../../types/lab.d.ts"
+  ]
+}

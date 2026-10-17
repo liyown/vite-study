@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+output/
+.playwright-cli/
+.DS_Store
+.sources/
+native/**/target/
+native/**/*.node
